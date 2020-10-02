@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//CHALLENGE: Make the code in App.jsx work.
+//The final app should have a single contact
+//with fName, lName and email.
+
+//HINT: You'll need to apply the following things you learnt:
+//1. Using JS Objects with state.
+//2. Making use of previous state when changing state.
+//3. Working with forms in React.
+//4. Handing events
